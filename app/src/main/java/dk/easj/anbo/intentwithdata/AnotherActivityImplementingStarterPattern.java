@@ -2,15 +2,13 @@ package dk.easj.anbo.intentwithdata;
 
 import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class AnotherActivityImplementingStarterPattern extends AppCompatActivity {
-    private static String NAME = "name";
+    private static final String NAME = "name";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

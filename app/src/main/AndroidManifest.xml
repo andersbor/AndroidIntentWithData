@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".AnotherActivity" />
-        <activity android:name=".AnotherActivityImplementingStarterPattern"></activity>
+        <activity android:name=".AnotherActivityImplementingStarterPattern" />
     </application>
 
 </manifest>
